@@ -14,7 +14,32 @@
     />
   </head>
   <body class="font-roboto">
-    <header class="text-blue-400">hello world</header>
-    <main></main>
+    <header id="header" class="text-blue-400 fixed flex block">
+      <img
+        id="header-img"
+        class="w-1/3"
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+        alt="placeholder-logo"
+      />
+      <nav id="nav-bar" class="">
+        <ul class="flex">
+          <li><a class="nav-link" href="#">a</a></li>
+          <li><a class="nav-link" href="#">b</a></li>
+          <li><a class="nav-link" href="#">c</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="absolute mt-36">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          name="email"
+          id="email"
+          type="email"
+          placeholder="placeholder@mysite.com"
+        />
+        <input id="submit" type="submit" />
+      </form>
+      <video id="video" src="#"></video>
+    </main>
   </body>
 </html>
