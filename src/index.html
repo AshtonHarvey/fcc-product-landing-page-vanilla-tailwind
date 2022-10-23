@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="" content="width=device-width, initial-scale=1.0" />
     <title>product landing page</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +16,7 @@
   <body class="font-roboto">
     <header
       id="header"
-      class="flex justify-between items-center m-4 bg-cyan-200"
+      class="flex justify-between items-center bg-cyan-200 fixed top-0 w-full"
     >
       <img
         id="header-img"
@@ -26,37 +26,114 @@
       />
       <nav id="nav-bar" class="w-1/2">
         <ul class="flex justify-between text-center">
-          <li class="w-1/4"><a class="nav-link" href="#">Moment a</a></li>
-          <li class="w-1/4"><a class="nav-link" href="#">Moment b</a></li>
-          <li class="w-1/4"><a class="nav-link" href="#">Moment c</a></li>
+          <li class="w-1/4"><a class="nav-link" href="#form">Signup a</a></li>
+          <li class="w-1/4"><a class="nav-link" href="#video">Moment b</a></li>
+          <li class="w-1/4">
+            <a class="nav-link" href="#video-two">Moment c</a>
+          </li>
         </ul>
       </nav>
     </header>
-    <main class="flex flex-col items-center">
-      <form
-        id="form"
-        class="border-4 border-cyan-400 flex flex-col w-8/12"
-        action="https://www.freecodecamp.com/email-submit"
-      >
-        <input
-          name="email"
-          id="email"
-          class=""
-          type="email"
-          placeholder="placeholder@mysite.com"
-        />
-        <input id="submit" class="p-2 w-fit" type="submit" />
-      </form>
-      <iframe
-        id="video"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/JzS96auqau0"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+    <main class="flex flex-col items-center mt-16">
+      <section id="form-group" class="w-8/12 lg:w-5/12 mb-10">
+        <form
+          id="form"
+          class="text-center flex flex-col items-center"
+          action="https://www.freecodecamp.com/email-submit"
+        >
+          <h2 class="font-bold text-2xl mb-4">Evo Moments</h2>
+          <input
+            name="email"
+            id="email"
+            class="border-2 border-slate-400 w-10/12 mb-4"
+            type="email"
+            placeholder="placeholder@mysite.com"
+          />
+          <input
+            id="submit"
+            class="p-2 w-fit bg-cyan-400 rounded"
+            type="submit"
+          />
+        </form>
+      </section>
+      <section id="video-group" class="">
+        <figure class="flex flex-col items-center text-center">
+          <iframe
+            id="video"
+            class="mb-10"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/JzS96auqau0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <figcaption>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+            culpa accusantium soluta numquam et sunt sed facilis magnam
+            distinctio sit eum ea ipsa voluptatum, reiciendis enim aut
+            perspiciatis modi. Dolorem, dicta veniam recusandae voluptas
+            laudantium explicabo, nulla quidem porro quam consequatur odio fugit
+            nostrum quod facere maxime? Ratione adipisci alias, quis perferendis
+            rerum, at sequi officiis mollitia voluptatum reiciendis quos laborum
+            nihil esse eius nam maiores ea magnam! Qui sed sint corporis! Ea
+            sunt dolore voluptates necessitatibus dignissimos ratione dicta
+            corrupti rem nam neque mollitia sit veritatis, optio, accusamus
+            laudantium assumenda eveniet iure sed iusto exercitationem. Ad
+            reprehenderit rerum, veniam mollitia sint blanditiis ex dolorem
+            nostrum corrupti aliquam hic nulla soluta sed porro modi facere quos
+            ea. Expedita odit iure itaque illo perferendis totam deleniti quod
+            cupiditate quae? Accusamus, quod reprehenderit modi a omnis cum
+            molestias voluptate sapiente id neque necessitatibus, nostrum
+            impedit iusto ab consectetur itaque velit beatae. Nulla minus quas
+            exercitationem sit? Hic assumenda modi, facere quae provident
+            dignissimos distinctio quibusdam, quo aspernatur ipsa soluta ut.
+            Ducimus animi corrupti dolore ut vero illum aperiam exercitationem
+            ipsam deserunt sed voluptatum, temporibus nobis quos minus omnis
+            dolorem quis saepe quibusdam explicabo hic facere facilis reiciendis
+            illo fugiat? Quia veniam fugit modi, est dolor in at minima eveniet
+            iste corrupti. A, illo fugit. Hic dicta ad corrupti, expedita illum
+            suscipit! Possimus quasi pariatur tempore quis reprehenderit officia
+            consectetur nam, et deserunt perferendis ad provident, dolorem
+            architecto delectus ut corporis aliquid debitis mollitia! Unde, hic.
+            Aliquid repudiandae, maiores vitae nostrum facere consequatur
+            voluptatum qui eum tempore esse corrupti pariatur repellat ipsam
+            voluptate, itaque obcaecati impedit sunt animi aut rem. In
+            consequuntur ipsam accusantium officia, quae, ullam delectus
+            dignissimos consectetur quis vitae similique quasi soluta, deleniti
+            tempore quisquam animi id perferendis illo omnis reprehenderit
+            magni! Sed iusto quisquam expedita, accusantium est quaerat vel.
+          </figcaption>
+        </figure>
+        <figure class="flex flex-col items-center text-center">
+          <iframe
+            id="video-two"
+            class="mb-10"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/UyagW9Z1PYU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <figcaption>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
+            animi porro nemo, aliquid aliquam odio, consequatur minima expedita
+            qui repudiandae asperiores minus? Dicta sequi sed saepe fugit. Aut
+            deserunt suscipit veniam nesciunt accusamus tempora error vel ipsam.
+            Est labore magni suscipit iste cupiditate porro eum vitae,
+            necessitatibus culpa ea, eos soluta ullam placeat assumenda aut
+            blanditiis id eligendi tempora veniam facere distinctio earum
+            consequuntur! Magnam dolores alias neque cum voluptatem possimus
+            commodi vero facere reiciendis soluta? Reprehenderit accusantium nam
+            consequuntur est quas modi sunt, amet quibusdam nobis sint magni
+            omnis expedita alias earum quo libero labore repellat nihil!
+            Incidunt, totam!
+          </figcaption>
+        </figure>
+      </section>
     </main>
   </body>
 </html>
